@@ -4,7 +4,6 @@ Esse curso faz parte de uma série de outros cursos organizados em apenas um, co
 #### link do curso: [Curso Web Moderno Completo Com JavaScript 2021](https://www.udemy.com/course-dashboard-redirect/?course_id=1465244)
 
 ## Contúdo do Curso
----
 Módulo JavaScript
 
 - [X] Configuração do Ambiente
