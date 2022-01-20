@@ -1,4 +1,4 @@
-let a = 3
+let a = 3       //variável LOCAL
 
 global.b = 123
 
@@ -18,3 +18,11 @@ abc = 3 // nao faça isso em casa!!!
 console.log(global.abc)
 
 // module.exports = { e: 456, f: false, g: 'teste' }
+
+/*
+quando var é declarada no browser ela vai para global windon,
+já const e let mesmo sendo declarada no escopo global não
+vai para a global windon.
+
+
+*/
