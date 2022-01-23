@@ -9,7 +9,7 @@ Módulo JavaScript
 - [X] Configuração do Ambiente
 - [X] Iniciando com Programação
 - [X] Fundamentos
-- [ ] Estrutura de Controle
+- [x] Estrutura de Controle
 - [ ] Funções
 - [ ] Objetos
 - [ ] Array
