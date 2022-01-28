@@ -6,7 +6,7 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     let velocidadeAtual = 0
 
     //metodo publico
-    this.acelerar = function() {
+    this.acelerar = function() { //tentei mudar esse código varias vezes, mais acredito que não deu certo pelo fato do parametro com padrão
         if(velocidadeAtual + delta <= velocidadeMaxima) {
             velocidadeAtual += delta
         } else {
