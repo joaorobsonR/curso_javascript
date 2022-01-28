@@ -9,6 +9,8 @@ function Carro(velocidadeMaxima = 200, delta = 5) {
     this.acelerar = function() {
         if(velocidadeAtual + delta <= velocidadeMaxima) {
             velocidadeAtual += delta
+        } else {
+            velocidadeAtual = velocidadeMaxima
         }
     }
     //metodo publico    -> get presica retornar
@@ -30,16 +32,13 @@ let contU = 0
 let contG = 0
 let contF = 0
 for(let i = 0; i < 3; i++) {
-    for(; uno.getVelocidadeAtual() < 200;) {
-        uno.acelerar()
+    for(; uno.getVelocidadeAtual() < 200; uno.acelerar()) {
         contU += 1
     }
-    for(; gol.getVelocidadeAtual() < 200;) {
-        gol.acelerar()
+    for(; gol.getVelocidadeAtual() < 200; gol.acelerar()) {
         contG += 1
     }
-    for(; ferrari.getVelocidadeAtual() < 350;) {
-        ferrari.acelerar()
+    for(; ferrari.getVelocidadeAtual() < 350; ferrari.acelerar()) {
         contF += 1
     }
 }
