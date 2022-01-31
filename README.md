@@ -10,7 +10,8 @@ Módulo JavaScript
 - [X] Iniciando com Programação
 - [X] Fundamentos
 - [x] Estrutura de Controle
-- [ ] Funções
+- [x] Funções
+    - [ ] Lista de Exercícios
 - [ ] Objetos
 - [ ] Array
 - [ ] Lista de Exercicios
