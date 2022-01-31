@@ -10,10 +10,14 @@ function fora() {       //a função lembra de suas origens
     function dentro() {
         return x
     }
-    return dentro
+    return dentro //se colocar (), VAI RETORNAR UMA STRING resultado da função, daí minha função passa ser string
 }
 
 const minhaFun = fora()
 console.log(minhaFun()) //vai imprimir local, pelo contexto lexico
 
 console.log(typeof minhaFun)
+
+console.log(fora)       //retorna funçaõ mais externa
+console.log(fora())     //retorna função mais interna
+console.log(fora()())   //retorna o retorna da função mais interna
