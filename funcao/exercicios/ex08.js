@@ -36,5 +36,3 @@ function verificaRecord(array) {
 }
 
 console.log(verificaRecord(listaJogos))
-
-listaJogos.indexOf
