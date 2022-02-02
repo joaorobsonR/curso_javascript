@@ -13,4 +13,3 @@ const verifica = num => {
 }
 
 console.log(verifica(45))
-
