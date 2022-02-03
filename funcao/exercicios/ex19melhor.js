@@ -40,7 +40,7 @@ const cardapio = (codigos) => {
         }
         somaValor += valor
     }
-    console.log(somaValor)
+    console.log(`\nO valor total do pedido é R$${somaValor}, muito obrigado!`)
 }
 
 const pedido = [100, 300, 400, 500, 600, 800, 600, 100, 700, 100]
