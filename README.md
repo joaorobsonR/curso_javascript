@@ -11,7 +11,7 @@ Módulo JavaScript
 - [X] Fundamentos
 - [x] Estrutura de Controle
 - [x] Funções
-    - [ ] Lista de Exercícios
+    - [x] Lista de Exercícios
 - [ ] Objetos
 - [ ] Array
 - [ ] Lista de Exercicios
