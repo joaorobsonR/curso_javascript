@@ -12,7 +12,7 @@ Módulo JavaScript
 - [x] Estrutura de Controle
 - [x] Funções
     - [x] Lista de Exercícios
-- [ ] Objetos
+- [x] Objetos
 - [ ] Array
 - [ ] Lista de Exercicios
 ---
